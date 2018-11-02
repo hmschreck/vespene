@@ -83,7 +83,7 @@ def serve_dir(request, *args, **kwargs):
 def fileserver(request, fname, *args, **kwargs):
     """
     Handle incoming file serving requests for a worker to serve
-    up it's own build roots.  Doesn't handle requests to other
+    up its own build roots.  Doesn't handle requests to other
     workers.
     """
     if not settings.FILESERVING_ENABLED:
